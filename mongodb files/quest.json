@@ -1,0 +1,37 @@
+
+
+[{
+    "quest_id": 1,
+    "quest_name": "Defeat the Lich King",
+    "quest_description": "Confront the fearsome Lich King in the Frozen Throne",
+    "required_level": 20,
+    "quest_item_id": 1 
+  },
+  {
+    "quest_id": 2,
+    "quest_name": "Retrieve the Artifact",
+    "quest_description": "Recover the ancient artifact from the depths of Blackrock Mountain",
+    "required_level": 18,
+    "quest_item_id": 2 
+  },
+  {
+    "quest_id": 3,
+    "quest_name": "Hunt the Beasts",
+    "quest_description": "Track and hunt down the ferocious beasts in Stranglethorn Vale",
+    "required_level": 15,
+    "quest_item_id": 3 
+  },
+  {
+    "quest_id": 4,
+    "quest_name": "Heal the Wounded",
+    "quest_description": "Provide healing aid to the wounded soldiers in the battlegrounds",
+    "required_level": 18,
+    "quest_item_id": 4 
+  },
+  {
+    "quest_id": 5,
+    "quest_name": "Assassinate the Target",
+    "quest_description": "Eliminate the notorious target in the shadows of Stormwind",
+    "required_level": 20,
+    "quest_item_id": 5 
+  }]

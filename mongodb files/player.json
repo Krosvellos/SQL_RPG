@@ -1,0 +1,191 @@
+
+
+[{
+ 
+    "player_id": 1,
+    "username": "MightyWarrior",
+    "email": "mightywarrior@example.com",
+    "password": "warrior123",
+    "registration_date": "2023-01-15",
+    "characters": [
+      {
+        "character_id": 1,
+        "character_name": "Varian",
+        "atlevel": 25,
+        "experience": 15000,
+        "class_id": 1, 
+        "inventory": {
+          "inventory_id": 1,
+          "total_capacity": 50,
+          "current_capacity": 30,
+          "items": [
+            {
+              "inventory_item_id": 1,
+              "quantity": 1,
+              "equipped": 1,
+              "durability": 100,
+              "item_id": 1 
+            }
+          ]
+        },
+        "quests": [
+          {
+            "character_quest_id": 1,
+            "quest_id": 1 
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+ 
+    "player_id": 2,
+    "username": "MysticalMage",
+    "email": "mysticalmage@example.com",
+    "password": "magic456",
+    "registration_date": "2023-02-20",
+    "characters": [
+      {
+        "character_id": 2,
+        "character_name": "Jaina",
+        "atlevel": 20,
+        "experience": 12000,
+        "class_id": 2, 
+        "inventory": {
+          "inventory_id": 2,
+          "total_capacity": 50,
+          "current_capacity": 30,
+          "items": [
+            {
+              "inventory_item_id": 2,
+              "quantity": 1,
+              "equipped": true,
+              "durability": 100,
+              "item_id": 2 
+            }
+          ]
+        },
+        "quests": [
+          {
+            "character_quest_id": 2,
+            "quest_id": 2 
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+ 
+    "player_id": 3,
+    "username": "Huntmaster",
+    "email": "huntmaster@example.com",
+    "password": "hunt789",
+    "registration_date": "2023-03-10",
+    "characters": [
+      {
+        "character_id": 3,
+        "character_name": "Rexxar",
+        "atlevel": 22,
+        "experience": 13500,
+        "class_id": 3, 
+        "inventory": {
+          "inventory_id": 3,
+          "total_capacity": 50,
+          "current_capacity": 30,
+          "items": [
+            {
+              "inventory_item_id": 3,
+              "quantity": 1,
+              "equipped": true,
+              "durability": 100,
+              "item_id": 3 
+            }
+          ]
+        },
+        "quests": [
+          {
+            "character_quest_id": 3,
+            "quest_id": 2 
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+ 
+    "player_id": 4,
+    "username": "DivineHealer",
+    "email": "divinehealer@example.com",
+    "password": "healpass",
+    "registration_date": "2023-04-05",
+    "characters": [
+      {
+        "character_id": 4,
+        "character_name": "Anduin",
+        "atlevel": 18,
+        "experience": 10000,
+        "class_id": 4, 
+        "inventory": {
+          "inventory_id": 4,
+          "total_capacity": 50,
+          "current_capacity": 30,
+          "items": [
+            {
+              "inventory_item_id": 4,
+              "quantity": 1,
+              "equipped": false,
+              "durability": 100,
+              "item_id": 4 
+            }
+          ]
+        },
+        "quests": [
+          {
+            "character_quest_id": 4,
+            "quest_id": 2 
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+ 
+    "player_id": 5,
+    "username": "ShadowAssassin",
+    "email": "shadowassassin@example.com",
+    "password": "assassinpass",
+    "registration_date": "2023-05-12",
+    "characters": [
+      {
+        "character_id": 5,
+        "character_name": "Valeera",
+        "atlevel": 21,
+        "experience": 13000,
+        "class_id": 5, 
+        "inventory": {
+          "inventory_id": 5,
+          "total_capacity": 50,
+          "current_capacity": 30,
+          "items": [
+            {
+              "inventory_item_id": 5,
+              "quantity": 1,
+              "equipped": true,
+              "durability": 100,
+              "item_id": 5 
+            }
+          ]
+        },
+        "quests": [
+          {
+            "character_quest_id": 5,
+            "quest_id": 5
+          }
+        ]
+      }
+    ]
+  }]

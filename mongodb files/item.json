@@ -1,0 +1,37 @@
+
+
+[{
+    "item_id": 1,
+    "item_name": "Sword of the Crusader",
+    "item_type": "Sword",
+    "required_level": 20,
+    "description": "A powerful sword forged for the champions"
+  },
+  {
+    "item_id": 2,
+    "item_name": "Staff of Arcane Power",
+    "item_type": "Staff",
+    "required_level": 18,
+    "description": "An enchanted staff resonating with arcane energies"
+  },
+  {
+    "item_id": 3,
+    "item_name": "Hunter's Bow",
+    "item_type": "Bow",
+    "required_level": 22,
+    "description": "A finely crafted bow favored by skilled hunters"
+  },
+  {
+    "item_id": 4,
+    "item_name": "Divine Robes",
+    "item_type": "Robe",
+    "required_level": 15,
+    "description": "Robes blessed with divine protection"
+  },
+  {
+    "item_id": 5,
+    "item_name": "Assassin's Dagger",
+    "item_type": "Dagger",
+    "required_level": 16,
+    "description": "A deadly dagger used by stealthy assassins"
+  }]

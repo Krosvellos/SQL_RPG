@@ -1,0 +1,60 @@
+V tomto dokumentu naleznete querries pro všechny kolekce.
+v MongoDB Compass jsem vytvořil kolekce: player,class,quest,item
+
+IN THE PLAYER COLLECTION:
+ 
+// For finding a player with a character that has experience of 1500 use the following querry:
+
+db.getCollection('player').find(
+  { player_id: 1 },
+  { 'characters.experience': 15000 }
+);
+
+// Find all players that are on a quest with quest_id = 2 and sort them based on their level from highest level to lowest.
+
+db.getCollection('player')
+  .find(
+    { 'characters.quests.quest_id': 2 },
+    { username: 1, 'characters.atlevel': 1 }
+  )
+  .sort({ 'characters.atlevel': -1 });
+
+
+// Find all players that registered later than 2023-03-01 and sort them alphabetically
+
+db.getCollection('player')
+  .find({
+    registration_date: { $gt: '2023-03-01' }
+  })
+  .sort({ username: 1 });
+
+--------------------------------------------------
+
+IN THE CLASS COLLECTION:
+
+// For finding the class with highest id use the following querry:
+
+db.getCollection('class')
+  .find({})
+  .sort({ class_id: -1 })
+  .limit(1);
+
+--------------------------------------------------
+
+IN THE ITEM COLLECTION:
+
+// To find all items that have required level equal or higher that 18 use the following querry:
+
+db.getCollection('item').find({
+  required_level: { $gte: 18 }
+});
+
+--------------------------------------------------
+
+IN THE QUEST COLLECTION:
+
+// To find all new quests that become available at level 18 use the following querry:
+
+db.getCollection('quest').find({
+    required_level: 18
+  });
